@@ -11,43 +11,45 @@ body {
 /*TRABAJAR A PARTIR DE ACA ABAJO*/
 /*REGLAS ACTIVIDAD 1*/
 nav {
-    
-    background-color: rgb(27, 25, 24);
-list-style: none;
-display: flex; 
-padding: 0;
-margin: 0;
+background-color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
 }
 
 nav a {
     color: rgb(255, 255, 255);
-    text-decoration: none;
     padding: 10px 20px;
 }
 
 header {
-    padding: 2rem;
     background-color: #F29A1F;
     color: white;
     padding: 50px 0;
-  
-}
+  }
   
  
   
 	
 
 .menu-grupo {
-    margin: 0 auto;
     background-color: #fff;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    max-width: 800px;
+   text-align: center;
+   display: flex;
+    justify-content: center;
 }
 
 .menu-item{
-    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+
     
 }
 
@@ -55,11 +57,8 @@ header {
 .menu-item:hover {
     display: flex;
     justify-content: space-between;
-    font-size: 1.2em;
     color: rgb(0, 0, 0);
 }
 nav a:hover {
-    font-size: 0.95em;
-    color: rgb(0, 0, 0);
-    margin-top: 5px; 
+    color: rgb(255, 166, 0); 
 }
